@@ -34,7 +34,7 @@ This demo showcases the agent handling open-ended prompts (e.g., listing Chinese
 # Clone this repo
 $ git clone https://github.com/yjie10/zypher-agent-playground
 
-# Install required dependencies (Zypher SDK & streaming helper)
+# Install dependencies (if not already in deno.json)
 $ deno add jsr:@zypher/agent
 $ deno add npm:rxjs-for-await
 
