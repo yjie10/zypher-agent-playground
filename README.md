@@ -23,6 +23,13 @@ This demo showcases the agent handling open-ended prompts (e.g., listing Chinese
 
 ## 🚀 Getting Started
 
+⚙️ **Prerequisites**
+
+- [Deno 2.0+](https://docs.deno.com/runtime/getting_started/installation/)
+- An OpenAI (or your preferred LLM) API key
+
+🪛 **Setup**
+
 ```bash
 # Clone this repo
 $ git clone https://github.com/yjie10/zypher-agent-playground
