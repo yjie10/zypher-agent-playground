@@ -27,6 +27,10 @@ This demo showcases the agent handling open-ended prompts (e.g., listing Chinese
 # Clone this repo
 $ git clone https://github.com/yjie10/zypher-agent-playground
 
+# Install required dependencies (Zypher SDK & streaming helper)
+$ deno add jsr:@zypher/agent
+$ deno add npm:rxjs-for-await
+
 # Set your Preferred LLM API key (I'm using OpenAI) in .env
 export OPENAI_API_KEY=your_api_key
 
@@ -49,6 +53,6 @@ P.S. Originally, I had planned to use Zypher’s built-in interactive CLI mode, 
 ## ✏️ Submission Notes
 
 This project was created as part of the Zypher technical assessment.
-Everything was built from scratch based on public documentation (no starter template), with extra attention to user experience and clarity in CLI interaction.
+Everything was built from scratch based on public documentation, with extra attention to user experience and clarity in CLI interaction.
 
 I also explored the possibility of building a minimal web UI, which would require wrapping the agent inside a Deno HTTP server. Due to time constraints I focused on CLI interaction, but the architecture allows easy extension toward a browser-based UI.
